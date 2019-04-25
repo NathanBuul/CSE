@@ -12,3 +12,10 @@ colors.pop(0)
 print(colors)
 print(colors[2])
 print("The length of the list is %d" % len(colors))
+print
+
+#listing alphabet/numbers/punctuation
+import string
+print(list(string.ascii_letters))
+print(string.digits)
+print(string.punctuation)
